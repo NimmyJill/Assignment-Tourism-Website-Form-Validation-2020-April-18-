@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+       <title>login</title>
+       <link rel="stylesheet" href="css/login.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar starts -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">Explore Kerala</label>
+        <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+ <!-- navbar ends -->
+   
+
+    <marquee behavior="alternate" direction="right" scrollamount="4"> Login to Explore Kerala</marquee>
+   
+    <div class="container">
+      <div class="heading">
+          <h1>Login</h1>
+      </div>
+      <form action="/homepage.html" onsubmit="return checkInputs()" class="form" id="form">
+          
+ 
+         <div class="form-control">
+             <label >Username</label> 
+             <input type="text" placeholder="Enter Username" id="username" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+        
+         
+         <div class="form-control">
+             <label >Password</label> 
+             <input type="password" placeholder="Enter your password" id="pswd" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+
+                   
+         
+         <button class="submit" type="submit">Submit</button>
+      
+         <div class="form-control"> 
+            <div class="login-sign">
+              <h5>Need an Account?</h5>
+              <a class="backto"  href="signup.html">Signup</a>
+            </div>
+          </div>
+      
+      
+        </form>
+     </div>
+    
+  <script src="login.js"></script>
+</body>
+</html>
